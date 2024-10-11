@@ -90,3 +90,146 @@ par hasard
 
 
 
+
+
+
+
+## Second Class
+
+Qu'est-ce-que tu fais a la cite universite le soui? 
+
+J'habite a la quiniere
+
+dessiner, draw
+
+jouer du piano, play the piano
+
+Je ne sais pas
+
+désolé je suis en retard
+
+pourquoi, why
+
+fais des courses, go shopping
+
+refaison, remake
+
+menage, household
+
+je prends un cafe, I'm having a coffee
+
+je prends le vélo
+
+la salle de bains, the bathroom
+
+![image-20241008115621989](/home/yutao/.config/Typora/typora-user-images/image-20241008115621989.png)
+
+
+
+### Family
+
+avoir 50 ans, to be 50 years old
+
+copains, friends
+
+petit copain, boyfriend
+
+celibataire, single
+
+retraite, retirement
+
+temps libre, free time
+
+partout dans le monde, all over the world
+
+Aller, je vais, tu vas, il va, nous allons, vous allez, ils vont
+
+pipi au lit, bedwetting
+
+je suis en bonne sante, I am healthy
+
+![image-20241008092114575](/home/yutao/.config/Typora/typora-user-images/image-20241008092114575.png)
+
+![image-20241008092123184](/home/yutao/.config/Typora/typora-user-images/image-20241008092123184.png)
+
+chocage, shock
+
+d'argent, of money
+
+outils, tools
+
+entreprise, company
+
+lycee, high school
+
+
+
+### Le corps humain
+
+![image-20241008095941390](/home/yutao/.config/Typora/typora-user-images/image-20241008095941390.png)
+
+
+
+### Sick
+
+La sante
+
+malade, sick
+
+grave, severe
+
+esperer, hope
+
+gorge, throat
+
+tousse, cough
+
+fievre, fever (il a 39 de fievre)
+
+aveugle, blind
+
+des lunettes, glasses
+
+handicape, disabled
+
+sourd, deaf
+
+muet, mute
+
+fauteuil roulant, wheelchair
+
+gueri, healed
+
+a suivi un traitement, underwent treatment
+
+reposer, to rest
+
+![image-20241008110038132](/home/yutao/.config/Typora/typora-user-images/image-20241008110038132.png)
+
+
+
+### Looks
+
+![Kendji Girac — Wikipédia](https://upload.wikimedia.org/wikipedia/commons/e/e2/Kendji_Girac_Belval_2016.jpg)
+
+Il a les cheveaux brun
+
+il a une barle
+
+il porte une veste noir
+
+il porte une veste en cuire
+
+C'est un BG (beau gosse) handsome boy
+
+collier, necklace
+
+
+
+
+
+
+
+si seulement, j'avais su te le dire vraiment (If only I had known how to really tell you)
+
+ton sourire, your smile
