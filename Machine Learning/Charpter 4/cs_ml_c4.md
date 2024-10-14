@@ -32,9 +32,28 @@
 
 ![image-20241009084130828](/home/yutao/.config/Typora/typora-user-images/image-20241009084130828.png)
 
+**交换律 (Commutativity)：** 两个函数的卷积顺序可以交换，即(f*g)(x) = (g*f)(x)。这说明卷积操作是可交换的。
+
+**分配律 (Distributivity)：** 卷积操作对加法满足分配律，即(f*(g+h))(x) = (f*g)(x) + (f*h)(x)。这说明卷积操作可以分配到加法运算中。
+
+**结合律 (Associativity)：** 多个函数的卷积操作满足结合律，即((f*g)\*h)(x) = (f\*(g*h))(x)。这说明卷积操作的顺序可以任意调整。
+
+
+
 #### Cross-Correlation
 
 ![image-20241009084354119](/home/yutao/.config/Typora/typora-user-images/image-20241009084354119.png)
+
+卷积与互相关的区别
+
+- 数学定义上的区别：
+  - **卷积**：在计算卷积时，卷积核会先进行翻转180度，然后再与输入信号进行滑动相乘求和。
+  - **互相关**：互相关则直接进行滑动相乘求和，不涉及卷积核的翻转。
+- 在CNN中的应用：
+  - **卷积**：在理论分析和信号处理中，卷积具有更严谨的数学定义和更广泛的应用。
+  - **互相关**：在CNN中，我们更关心的是提取图像的特征，而特征提取的过程本质上就是寻找输入图像和卷积核之间的相似性。互相关操作能够更直接地实现这一目的。
+
+
 
 #### Illustration of a Convolution
 
@@ -65,6 +84,10 @@ Equivariant translation
 ![image-20241009085417957](/home/yutao/.config/Typora/typora-user-images/image-20241009085417957.png)
 
 ![image-20241009090249874](/home/yutao/.config/Typora/typora-user-images/image-20241009090249874.png)
+
+公式1：f(transform(x)) = transform(f(x)) -> Equivariant
+
+公式2：f(transform(x)) = f(x)
 
 
 
@@ -283,7 +306,7 @@ Equivariant translation
 
 #### What is Self-supervised learning (SSL) ?
 
-![image-20241009111619069](/home/yutao/.config/Typora/typora-user-images/image-20241009111619069.png)
+![image-20241014154406141](/home/yutao/.config/Typora/typora-user-images/image-20241014154406141.png)
 
 #### Pretext tasks for images
 
@@ -296,6 +319,22 @@ Equivariant translation
 #### Contrastive Learning
 
 ![image-20241009111746102](/home/yutao/.config/Typora/typora-user-images/image-20241009111746102.png)
+
+对比学习是一种自监督学习的方法，它通过比较正样本对和负样本对来学习数据的表示。
+核心思想：
+
+    正样本对： 指的是同一张图像经过不同数据增强（比如旋转、裁剪、加噪声等）得到的两张图片。虽然它们在像素上有所不同，但本质上代表的是同一个物体或场景。
+    负样本对： 指的是不同的图像。
+    学习目标： 模型学习将正样本对的表示拉近，同时将负样本对的表示推远。
+
+为什么使用对比学习？
+
+    无需标注数据： 与监督学习不同，对比学习不需要大量的标注数据，只需要大量的无标注数据。
+    学习到的表示具有更好的泛化能力： 通过对比学习得到的表示，往往能够更好地捕捉数据的本质特征，从而在各种下游任务中表现出更好的性能。
+
+
+
+
 
 #### SimCLR, Chen et al. 2020
 
@@ -318,25 +357,3 @@ Equivariant translation
 
 
 
-
-
-
-### 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 
-
-### 
