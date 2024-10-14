@@ -1,0 +1,725 @@
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+Conference paper
+First Online: 20 December 2023
+pp 
+Cite this conference paper
+ 
+Progress in Artificial Intelligence and Pattern Recognition
+(IWAIPR 2023)
+Yoan Antonio López-Rodríguez, Orlando Grabiel Toledano-López, Yusniel Hidalgo-Delgado, Héctor González Diéz & Rey Segundo-Guerrero 
+Part of the book series: 
+Included in the following conference series:
+@inproceedings{LR2023,
+ author = {López-Rodríguez, Yoan Antonio and Toledano-López, Orlando Grabiel and Hidalgo-Delgado, Yusniel and González Diéz, Héctor and Segundo-Guerrero, Rey},
+ booktitle = {International Workshop on Artificial Intelligence and Pattern Recognition},
+ title = {Good Negative Sampling for Triple Classification},
+ year = {2023},
+volume={14335},
+Pages = {323–334},
+publisher= { LNCS}
+}
+
+@inproceedings{bordes,
+ author = {Bordes, Antoine and Usunier, Nicolas and Garcia-Duran, Alberto and Weston, Jason and Yakhnenko, Oksana},
+ booktitle = {Advances in Neural Information Processing Systems (NIPS)},
+ title = {Translating Embeddings for Modeling Multi-relational Data},
+ publisher = {ACM},
+ year = {2013},
+volume={2},
+Pages = {2787 - 2795}
+}
+
+@InProceedings{transrowl,
+author="d'Amato, Claudia
+and Quatraro, Nicola Flavio
+and Fanizzi, Nicola",
+title="Injecting Background Knowledge into Embedding Models for Predictive Tasks on Knowledge Graphs",
+booktitle="The Semantic Web 18th International Conference, (ESWC)",
+year={2021},
+pages={441-457},
+publisher={ACM}
+}
+
+@InProceedings{sanspaper,
+  author       = {Kian Ahrabian and
+                  Aarash Feizi and
+                  Yasmin Salehi and
+                  William L. Hamilton and
+                  Avishek Joey Bose},
+  title        = {Structure Aware Negative Sampling in Knowledge Graphs},
+booktitle = {Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year         = {2020},
+pages = {6093–6101},
+  publisher       = {Association for Computational Linguistics}
+}
+
+@misc{volkr,
+  author       = {Zoi Kaoudi and
+                  Abelardo Carlos Martinez Lorenzo and
+                  Volker Markl},
+  title        = {Towards Loosely-Coupling Knowledge Graph Embeddings and Ontology-based
+                  Reasoning},
+  eprint    = {arXiv abs/2202.03173},
+year= {2022}
+}
+
+@InProceedings{paperiterative,
+author={Jain, Nitisha
+and Tran, Trung-Kien
+and Gad-Elrab, Mohamed H.
+and Stepanova, Daria},
+title={Improving Knowledge Graph Embeddings with Ontological Reasoning},
+booktitle={The 20th International Semantic Web Conference, (ISWC) },
+year="2021",
+pages={410-426},
+publisher={ACM}
+}
+
+
+@misc{linkpred1,
+      title={A Retrieve-and-Read Framework for Knowledge Graph Link Prediction}, 
+      author={Vardaan Pahuja and Boshi Wang and Hugo Latapie and Jayanth Srinivasa and Yu Su},
+      year={2022},
+      eprint={2212.09724},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@article{linkpred2,
+	doi = {10.3390/info13080396},
+	year = 2022,
+	month = {aug},
+	publisher = {{MDPI} {AG}},
+	volume = {13},
+	number = {8},
+	pages = {396},
+	author = {Mohamad Zamini and Hassan Reza and Minou Rabiei},
+	title = {A Review of Knowledge Graph Completion},
+	journal = {Information}
+}
+
+@inproceedings{tripleclass1,
+	year = {2021},
+	publisher = {ACM},  
+	author = {Mohamad Yaser Jaradeh and Kuldeep Singh and Markus Stocker and Sören Auer},  
+	title = {Triple Classification for Scholarly Knowledge Graph Completion},
+	booktitle = {The 11th on Knowledge Capture Conference (K-CAP)},
+pages= {225 - 232}
+}
+
+@article{tripleclass2,
+title = {A comprehensive overview of knowledge graph completion},
+journal = {Knowledge-Based Systems},
+volume = {255},
+pages = {109597},
+year = {2022},
+issn = {0950-7051},
+author = {Tong Shen and Fu Zhang and Jingwei Cheng}
+}
+
+@article{linkPred_with_embeddings,
+author = {Rossi, Andrea and Barbosa, Denilson and Firmani, Donatella and Matinata, Antonio and Merialdo, Paolo},
+title = {Knowledge Graph Embedding for Link Prediction: A Comparative Analysis},
+year = {2021},
+publisher = {ACM},
+volume = {15},
+number = {2}
+}
+
+
+@Article{linkPred_with_embeddings2,
+AUTHOR = {Wang, Meihong and Qiu, Linling and Wang, Xiaoli},
+TITLE = {A Survey on Knowledge Graph Embeddings for Link Prediction},
+JOURNAL = {Symmetry},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {3},
+ARTICLE-NUMBER = {485},
+ISSN = {2073-8994}
+}
+
+@inproceedings{linkPred_with_embeddings3,
+author = {Biswas, Russa},
+title = {Embedding Based Link Prediction for Knowledge Graph Completion},
+year = {2020},
+publisher = {Association for Computing Machinery},
+booktitle = {Proceedings of the 29th ACM International Conference on Information \& Knowledge Management (CIKM)},
+pages = {3221–3224}
+}
+
+@misc{applications,
+      title={A Survey of Knowledge Graph Embedding and Their Applications}, 
+      author={Shivani Choudhary and Tarun Luthra and Ashima Mittal and Rajat Singh},
+      year={2021},
+      eprint={arXiv: 2107.07842}
+}
+
+@ARTICLE{applications2,
+  author={Wang, Quan and Mao, Zhendong and Wang, Bin and Guo, Li},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={Knowledge Graph Embedding: A Survey of Approaches and Applications}, 
+  year={2017},
+  volume={29},
+  number={12},
+  pages={2724-2743},
+  doi={10.1109/TKDE.2017.2754499}}
+
+@InProceedings{dbpedia,
+author="Auer, S{\"o}ren
+and Bizer, Christian
+and Kobilarov, Georgi
+and Lehmann, Jens
+and Cyganiak, Richard
+and Ives, Zachary",
+title="DBpedia: A Nucleus for a Web of Open Data",
+booktitle="The Semantic Web",
+year="2007",
+publisher="Springer Berlin Heidelberg",
+pages="722-735"
+}
+
+@inproceedings{YAGO,
+author = {Suchanek, Fabian and Kasneci, Gjergji and Weikum, Gerhard},
+year = {2007},
+month = {05},
+pages = {697-706},
+title = {YAGO: a core of semantic knowledge},
+journal = {16th International World Wide Web Conference, WWW2007},
+doi = {10.1145/1242572.1242667}
+}
+
+@inproceedings{freebase,
+author = {Bollacker, Kurt and Evans, Colin and Paritosh, Praveen and Sturge, Tim and Taylor, Jamie},
+title = {Freebase: A Collaboratively Created Graph Database for Structuring Human Knowledge},
+year = {2008},
+isbn = {9781605581026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/1376616.1376746},
+abstract = {Freebase is a practical, scalable tuple database used to structure general human knowledge. The data in Freebase is collaboratively created, structured, and maintained. Freebase currently contains more than 125,000,000 tuples, more than 4000 types, and more than 7000 properties. Public read/write access to Freebase is allowed through an HTTP-based graph-query API using the Metaweb Query Language (MQL) as a data query and manipulation language. MQL provides an easy-to-use object-oriented interface to the tuple data in Freebase and is designed to facilitate the creation of collaborative, Web-based data-oriented applications.},
+booktitle = {Proceedings of the 2008 ACM SIGMOD International Conference on Management of Data},
+pages = {1247–1250},
+numpages = {4},
+keywords = {semantic network, tuple store, collaborative systems},
+location = {Vancouver, Canada},
+series = {SIGMOD '08}
+}
+
+@inproceedings{nell,
+author = {Carlson, Andrew and Betteridge, Justin and Kisiel, Bryan and Settles, Burr and Hruschka, Estevam R. and Mitchell, Tom M.},
+title = {Toward an Architecture for Never-Ending Language Learning},
+year = {2010},
+publisher = {AAAI Press},
+booktitle = {Proceedings of the 24th AAAI Conference on Artificial Intelligence (AAAI)},
+pages = {1306–1313}
+}
+
+@misc{wikidata,
+      title={Wikidated 1.0: An Evolving Knowledge Graph Dataset of Wikidata's Revision History}, 
+      author={Lukas Schmelzeisen and Corina Dima and Steffen Staab},
+      year={2021},
+      eprint={2112.05003},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
+
+@article{iter1,
+  author       = {Wen Zhang and
+                  Bibek Paudel and
+                  Liang Wang and
+                  Jiaoyan Chen and
+                  Hai Zhu and
+                  Wei Zhang and
+                  Abraham Bernstein and
+                  Huajun Chen},
+  title        = {Iteratively Learning Embeddings and Rules for Knowledge Graph Reasoning},
+  volume       = {abs/1903.08948},
+  year         = {2019},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+@misc{iter2,
+      title={Improving Knowledge Graph Embedding via Iterative Self-Semantic Knowledge Distillation}, 
+      author={Zhehui Zhou and Defang Chen and Can Wang and Yan Feng and Chun Chen},
+      year={2022},
+}
+@inproceedings{iter3,
+author = {Sun, Zequn and Hu, Wei and Zhang, Qingheng and Qu, Yuzhong},
+title = {Bootstrapping Entity Alignment with Knowledge Graph Embedding},
+year = {2018},
+publisher = {AAAI Press},
+booktitle = {Proceedings of the 27th International Joint Conference on Artificial Intelligence},
+pages = {4396–4402},
+}
+@inproceedings{neg1,
+  title={Type-constrained representation learning in knowledge graphs},
+  author={Krompa{\ss}, Denis and Baier, Stephan and Tresp, Volker},
+  booktitle={The 14th International Semantic Web Conference (ISWC)},
+  pages={640--655},
+  year={2015},
+  publisher={Springer}
+}
+@article{neg2,
+  title={A review of relational machine learning for knowledge graphs},
+  author={Nickel, Maximilian and Murphy, Kevin and Tresp, Volker and Gabrilovich, Evgeniy},
+  journal={Proceedings of the IEEE},
+  volume={104},
+  number={1},
+  pages={11--33},
+  year={2015},
+  publisher={IEEE}
+}
+@misc{neg3,
+  title={Distributional negative sampling for knowledge base completion},
+  author={Dash, Sarthak and Gliozzo, Alfio},
+  year={2019},
+ eprint= {arXiv: abs/1908.06178 }
+}
+
+
+
+@inproceedings{neg4,
+  title={Affinity Dependent Negative Sampling for Knowledge Graph Embeddings},
+author={Alam, Mirza Mohtashim and Jabeen, Hajira and Ali, Mehdi and Mohiuddin, Karishma and Lehmann, Jens},
+  booktitle={CEUR-WS},
+  year={2020},
+volume={2635}
+}
+@article{neg5,
+  title={Reasoning with neural tensor networks for knowledge base completion},
+  author={Socher, Richard and Chen, Danqi and Manning, Christopher D and Ng, Andrew},
+  journal={Advances in neural information processing systems},
+  volume={26},
+  year={2013}
+}
+@article{defkge,
+  author={Ji, Shaoxiong and Pan, Shirui and Cambria, Erik and Marttinen, Pekka and Yu, Philip S.},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={A Survey on Knowledge Graphs: Representation, Acquisition, and Applications}, 
+  year={2022},
+  volume={33},
+  number={2},
+  pages={494-514}
+}
+@inproceedings{hermit,
+  title={HermiT: A Highly-Efficient OWL Reasoner},
+  author={Rob Shearer and Boris Motik and Ian Horrocks},
+  booktitle={OWL: Experiences and Directions},
+  year={2008},
+}
+@InProceedings{inconsistenciesinKG,
+author="de Groot, Thomas
+and Raad, Joe
+and Schlobach, Stefan",
+title="Analysing Large Inconsistent Knowledge Graphs Using Anti-patterns",
+booktitle="European Semantic Web Conference (ESWC)",
+year="2021",
+publisher="Springer International Publishing",
+pages="40--56"
+}
+
+@misc{MR_H@10,
+      title={A Unified Framework for Rank-based Evaluation Metrics for Link Prediction in Knowledge Graphs}, 
+      author={Charles Tapley Hoyt and Max Berrendorf and Mikhail Galkin and Volker Tresp and Benjamin M. Gyori},
+      year={2022},
+      eprint={arXiv: 2203.07544}
+}
+
+@article{wordnet,
+author = {Miller, George A.},
+title = {WordNet: A Lexical Database for English},
+year = {1995},
+issue_date = {Nov. 1995},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {38},
+number = {11},
+issn = {0001-0782},
+doi = {10.1145/219717.219748},
+abstract = {Because meaningful sentences are composed of meaningful words, any system that hopes to process natural languages as people do must have information about words and their meanings. This information is traditionally provided through dictionaries, and machine-readable dictionaries are now widely available. But dictionary entries evolved for the convenience of human readers, not for machines. WordNet1 provides a more effective combination of traditional lexicographic information and modern computing. WordNet is an online lexical database designed for use under program control. English nouns, verbs, adjectives, and adverbs are organized into sets of synonyms, each representing a lexicalized concept. Semantic relations link the synonym sets [4].},
+journal = {Commun. ACM},
+month = {nov},
+pages = {39–41},
+numpages = {3}
+}
+
+@InProceedings{geonames,
+author="Frontini, Francesca
+and Del Gratta, Riccardo
+and Monachini, Monica",
+editor="Vetulani, Zygmunt
+and Uszkoreit, Hans
+and Kubis, Marek",
+title="GeoDomainWordNet: Linking the Geonames Ontology to WordNet",
+booktitle="Human Language Technology. Challenges for Computer Science and Linguistics",
+year="2016",
+publisher="Springer International Publishing",
+address="Cham",
+pages="229--242",
+abstract="This paper illustrates the transformation of GeoNames' ontology concepts, with their English labels and glosses, into a GeoDomain WordNet-like resource in English, its translation into Italian, and its linking to the existing generic WordNets of both languages. The paper describes the criteria used for the linking of domain synsets to each other and to the generic ones and presents the published resource in RDF according to the w3c and lemon schema.",
+isbn="978-3-319-43808-5"
+}
+
+@INPROCEEDINGS{reccommendationSystems,
+  author={Liu, Chan and Li, Lun and Yao, Xiaolu and Tang, Lin},
+  booktitle={IEEE International Conference on Computer Science and Educational Informatization (CSEI)}, 
+  title={A Survey of Recommendation Algorithms Based on Knowledge Graph Embedding}, 
+  year={2019},
+  publisher ={IEEE},
+  pages={168-171}}
+
+@inproceedings{recommendationSystems2,
+author = {Sun, Zhu and Yang, Jie and Zhang, Jie and Bozzon, Alessandro and Huang, Long-Kai and Xu, Chi},
+title = {Recurrent Knowledge Graph Embedding for Effective Recommendation},
+year = {2018},
+publisher = {ACM},
+booktitle = {The 12th ACM Conference on Recommender Systems},
+pages = {297–305},
+numpages = {9}
+}
+
+@article{recommendationSystems3,
+title = {Knowledge graph-based recommendation system enhanced by neural collaborative filtering and knowledge graph embedding},
+journal = {Ain Shams Engineering Journal},
+pages = {102263},
+year = {2023},
+author = {Zeinab Shokrzadeh and Mohammad-Reza Feizi-Derakhshi and Mohammad-Ali Balafar and Jamshid {Bagherzadeh Mohasefi}}
+}
+
+@InProceedings{NLP_questionAnswering,
+author="Wang, Ruijie
+and Wang, Meng
+and Liu, Jun
+and Chen, Weitong
+and Cochez, Michael
+and Decker, Stefan",
+editor="Li, Guoliang
+and Yang, Jun
+and Gama, Joao
+and Natwichai, Juggapong
+and Tong, Yongxin",
+title="Leveraging Knowledge Graph Embeddings for Natural Language Question Answering",
+booktitle="Database Systems for Advanced Applications",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages={659-675},
+abstract = { }
+}
+
+@misc{NLP_sentimentAnalysis,
+      title={A Decade of Knowledge Graphs in Natural Language Processing: A Survey}, 
+      author={Phillip Schneider and Tim Schopf and Juraj Vladika and Mikhail Galkin and Elena Simperl and Florian Matthes},
+      year={2022},
+      eprint={2210.00105},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@article{NLP_applications,
+author = {Ji, Shaoxiong and Pan, Shirui and Cambria, Erik and Marttinen, Pekka and Yu, Philip},
+title = {A Survey on Knowledge Graphs: Representation, Acquisition and Applications},
+journal= {IEEE Transactions on Neural Networks and Learning Systems},
+ volume = {33},
+pages={494-514},
+ year = {2022}
+}
+
+
+
+
+@PhDThesis{PenaPhD,
+  author = {Rafael Pe{\~n}aloza},
+  title = {Axiom-Pinpointing in Description Logics and Beyond},
+  school = {Dresden University of Technology},
+  year = {2009},
+  address = {Germany}
+}
+
+@article{transR, title={Learning Entity and Relation Embeddings for Knowledge Graph Completion}, volume={29},  number={1}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Lin, Yankai and Liu, Zhiyuan and Sun, Maosong and Liu, Yang and Zhu, Xuan}, year={2015}}
+
+@inproceedings{NEURIPS2019_ontoEmbedding,
+ author = {Garg, Dinesh and Ikbal, Shajith and Srivastava, Santosh K. and Vishwakarma, Harit and Karanam, Hima and Subramaniam, L Venkata},
+ booktitle = {33rd International Conference on Neural Information Processing Systems},
+ pages = {5594 - 5604},
+ publisher = {ACM},
+ title = {Quantum Embedding of Knowledge for Reasoning},
+ volume = {502},
+ year = {2019}
+}
+@inproceedings{transH,
+  title={Knowledge Graph Embedding by Translating on Hyperplanes},
+  author={Zhen Wang and Jianwen Zhang and Jianlin Feng and Zheng Chen},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  year={2014},
+}
+
+@InProceedings{inproceedings,
+author = {Krompass, Denis and Baier, Stephan and Tresp, Volker},
+year = {2015},
+booktitle = {The 14th International Semantic Web Conference (ISWC)},
+pages = {640–655},
+title = {Type-Constrained Representation Learning in Knowledge Graphs},
+publisher = {ACM}
+}
+
+@article{WIHARJA2020100616,
+title = {Schema aware iterative Knowledge Graph completion},
+journal = {Journal of Web Semantics},
+volume = {65},
+pages = {100616},
+year = {2020},
+author = {Kemas Wiharja and Jeff Z. Pan and Martin J. Kollingbaum and Yu Deng}
+}
+
+
+@inproceedings{topper,
+author = {T\"{o}pper, Gerald and Knuth, Magnus and Sack, Harald},
+title = {DBpedia Ontology Enrichment for Inconsistency Detection},
+year = {2012},
+publisher = {Association for Computing Machinery},
+booktitle = {Proceedings of the 8th International Conference on Semantic Systems},
+pages = {33–40},
+keywords = {data cleansing, ontology enrichment, DBpedia, linked data},
+}
+
+@Article{bonatti,
+  author =	{Piero Andrea Bonatti and Stefan Decker and Axel Polleres and Valentina Presutti},
+  title =	{Knowledge Graphs: New Directions for Knowledge Representation on the Semantic Web },
+  pages =	{29--111},
+  journal =	{Dagstuhl Reports},
+  year =	{2019},
+  volume =	{8},
+  number =	{9},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik}
+}
+
+@misc{SGD,
+      title={An overview of gradient descent optimization algorithms}, 
+      author={Sebastian Ruder},
+      year={2017},
+      eprint={1609.04747},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+@article{bioinformatics/btt491,
+    author = {Ferreira, João D. and Hastings, Janna and Couto, Francisco M.},
+    title = "{Exploiting disjointness axioms to improve semantic similarity measures}",
+    journal = {Bioinformatics},
+    volume = {29},
+    number = {21},
+    pages = {2781-2787},
+    year = {2013}
+}
+
+@article{CC1988,
+    author = {Watts, Duncan J. and Strogatz, Steven H.},
+title = {Collective dynamics of ‘small-world’networks},
+Journal ={Nature},
+Year ={1998},
+Volume={393},
+Number={6684},
+Pages={440--442},
+Abstract={Networks of coupled dynamical systems have been used to model biological oscillators1,2,3,4, Josephson junction arrays5,6, excitable media7, neural networks8,9,10, spatial games11, genetic control networks12 and many other self-organizing systems. Ordinarily, the connection topology is assumed to be either completely regular or completely random. But many biological, technological and social networks lie somewhere between these two extremes. Here we explore simple models of networks that can be tuned through this middle ground: regular networks ‘rewired’to introduce increasing amounts of disorder. We find that these systems can be highly clustered, like regular lattices, yet have small characteristic path lengths, like random graphs. We call them ‘small-world’networks, by analogy with the small-world phenomenon13,14 (popularly known as six degrees of separation15). The neural network of the worm Caenorhabditis elegans, the power grid of the western United States, and the collaboration graph of film actors are shown to be small-world networks. Models of dynamical systems with small-world coupling display enhanced signal-propagation speed, computational power, and synchronizability. In particular, infectious diseases spread more easily in small-world networks than in regular lattices.},
+Isbn={1476-4687}
+}
+
+

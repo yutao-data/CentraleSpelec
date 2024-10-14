@@ -1,4 +1,4 @@
-## Multi-layer perceptron
+## Charpter 2 Multi-layer perceptron
 
 ### Theoritical reminder: Differentiability
 
