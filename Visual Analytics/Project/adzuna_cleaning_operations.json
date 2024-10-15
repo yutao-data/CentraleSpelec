@@ -1,0 +1,42 @@
+[
+    {
+        "step": 1,
+        "action": "Drop column",
+        "details": "Dropped 'Company Size' column which is entirely NaN"
+    },
+    {
+        "step": 2,
+        "action": "Rename column",
+        "details": "Renamed 'Required Language' to 'Description'"
+    },
+    {
+        "step": 3,
+        "action": "Define extraction functions",
+        "details": "Defined functions to extract language requirements, company info, soft skills, and data skills from the 'Description'"
+    },
+    {
+        "step": 4,
+        "action": "Drop duplicates",
+        "details": "Dropped duplicate rows and reset index"
+    },
+    {
+        "step": 5,
+        "action": "Ensure unique columns",
+        "details": "Ensured all column names are unique"
+    },
+    {
+        "step": 6,
+        "action": "Apply extraction functions",
+        "details": "Applied extraction functions to 'Description' column to create new columns for 'Language Requirements', 'Company Info', 'Soft Skills', and 'Data Skills'"
+    },
+    {
+        "step": 7,
+        "action": "Drop duplicates after extraction",
+        "details": "Dropped completely duplicate rows and reset index again after extraction"
+    },
+    {
+        "step": 8,
+        "action": "Save CSV",
+        "details": "Saved the cleaned dataset to a new CSV file 'adzuna_data_cleaned.csv'"
+    }
+]

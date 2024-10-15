@@ -85,10 +85,6 @@ Mapping this formula to the theory up here, we could find the <2x | a> is the <g
 
 
 
-![image-20240925094317435](/home/yutao/.config/Typora/typora-user-images/image-20240925094317435.png)
-
-
-
 
 
 ### Piecewise-linear perceptions

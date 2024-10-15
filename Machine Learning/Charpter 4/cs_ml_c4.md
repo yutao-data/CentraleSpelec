@@ -227,19 +227,19 @@ Equivariant translation
 
 ![image-20241009105740866](/home/yutao/.config/Typora/typora-user-images/image-20241009105740866.png)
 
-#### Training R-CNN
+##### Training R-CNN
 
 ![image-20241009110009794](/home/yutao/.config/Typora/typora-user-images/image-20241009110009794.png)
 
 ![image-20241009110014085](/home/yutao/.config/Typora/typora-user-images/image-20241009110014085.png)
 
-#### Evaluation of a detection model
+##### Evaluation of a detection model
 
 ![image-20241009110042779](/home/yutao/.config/Typora/typora-user-images/image-20241009110042779.png)
 
 ![image-20241009110213290](/home/yutao/.config/Typora/typora-user-images/image-20241009110213290.png)
 
-#### R-CNN limits
+##### R-CNN limits
 
 ![image-20241009110241854](/home/yutao/.config/Typora/typora-user-images/image-20241009110241854.png)
 
@@ -349,7 +349,6 @@ Equivariant translation
 ## Conclusion
 
 ![image-20241009112018374](/home/yutao/.config/Typora/typora-user-images/image-20241009112018374.png)
-
 
 
 

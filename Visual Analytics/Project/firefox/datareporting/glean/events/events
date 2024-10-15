@@ -1,4 +1,0 @@
-{"timestamp":14872107,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1728853908108"}}
-{"timestamp":14872693,"category":"addons_manager","name":"manage","extra":{"method":"disable","source":"system-addon","glean_timestamp":"1728853908694","addon_id":"screenshots@mozilla.org","addon_type":"extension"}}
-{"timestamp":14874590,"category":"search.engine.default","name":"changed","extra":{"previous_engine_id":"google-ubuntu-sn","new_load_path":"[app]google","new_display_name":"Google","new_engine_id":"google-ubuntu-sn","new_submission_url":"https://www.google.com/search?client=ubuntu-sn&channel=fs&q=","change_source":"engine-update","glean_timestamp":"1728853910591"}}
-{"timestamp":14881279,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1728853917280"}}
