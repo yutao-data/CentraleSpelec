@@ -1,6 +1,6 @@
 # French
 
-## First Class
+# First Class
 
 ### Time & Date
 
@@ -94,7 +94,7 @@ par hasard
 
 
 
-## Second Class
+# Second Class
 
 Qu'est-ce-que tu fais a la cite universite le soui? 
 
@@ -233,3 +233,49 @@ collier, necklace
 si seulement, j'avais su te le dire vraiment (If only I had known how to really tell you)
 
 ton sourire, your smile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Third Class
+
+Est-ce-que tu as puis ton petit-dejeunex ce matin?
+
+​				cuicine hier soir?
+
+​                        regarde le series hier soir?
+
+Oui, j'ai fait la cuicine ches moi. 
+
+<img src="https://francetvstudio.fr/content/uploads/2018/12/USGS-ARCHE37-720x568-1.png" alt="Un si grand soleil - FranceTvStudio" style="zoom:25%;" />
+
+
+
+Duex mille quatorze
+
+D'ou vient son nom? 它的名字从何而来？
+
+Ou passait-il l'hiver? 他在哪里过冬
+
+A quel niveau a-t-il arrete ses etudes? 他到什么程度就停止学业了？
+
+Quelles langues maitrise-t-il? 他会说哪些语言？
+
+sedentarise stay
+
+L'ecole premiere, Le college, Le lycee, Le college
+
+C'est un object qui 
