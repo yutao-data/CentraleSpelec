@@ -41,14 +41,31 @@ The paper presents **RNNLogic**, a novel method designed to learn **logic rules*
   
   ![image-20241020221154426](/home/yutao/.config/Typora/typora-user-images/image-20241020221154426.png)
   
+  ![image-20241021215005649](/home/yutao/.config/Typora/typora-user-images/image-20241021215005649.png)
+  
   - **Reasoning Predictor**: Uses these rules to predict new facts on the KG.
   
   ![image-20241020221222312](/home/yutao/.config/Typora/typora-user-images/image-20241020221222312.png)
+  
+  ![image-20241021224349268](/home/yutao/.config/Typora/typora-user-images/image-20241021224349268.png)
+  
+  ![image-20241021225439861](/home/yutao/.config/Typora/typora-user-images/image-20241021225439861.png)
+
+
+
 ### 3.1 Optimization Process
+
 - The method uses an **EM (Expectation-Maximization) Algorithm**:
+  
+  ![image-20241022073831005](/home/yutao/.config/Typora/typora-user-images/image-20241022073831005.png)
+  
   - **E-step**: Selects high-quality rules from those generated.
+  
+  ![image-20241022074627090](/home/yutao/.config/Typora/typora-user-images/image-20241022074627090.png)
+  
   - **M-step**: Updates the rule generator to better match the high-quality rules.
   
+  ![image-20241022074720989](/home/yutao/.config/Typora/typora-user-images/image-20241022074720989.png)
 ### 3.2 Model Components
 - **Probabilistic Model**: Jointly learns logic rules and uses them for reasoning.
 - **Rule Generator**: A recurrent neural network (RNN) generates potential rules based on query relations.
