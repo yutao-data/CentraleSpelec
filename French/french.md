@@ -279,3 +279,74 @@ sedentarise stay
 L'ecole premiere, Le college, Le lycee, Le college
 
 C'est un object qui 
+
+
+
+
+
+
+
+# Forth Class
+
+lieu = endroit = 地点
+
+horloge = 钟表
+
+c'est un objet qui se met ou poignet = 它是戴在手腕上的物体
+
+## La maison : Dans la cuisine
+
+<img src="/home/yutao/.config/Typora/typora-user-images/image-20241022115124767.png" alt="image-20241022115124767" style="zoom:79%;" />
+
+
+
+## Acciddent
+
+Que lui est-il arrive en 2024? 2024年他发生了什么？
+
+​	il s'est tire dessus 他开枪自杀了
+
+Ou a-t-il ete blesse? 他哪里受伤了？ 
+
+​	il a ete blesse 他受伤了
+
+Pourquoi s'est-il tire dessus? 他为什么开枪自杀？
+
+​	son epouse aurait le quitter 他的妻子会离开他
+
+Comment s'appelle ce genre de comportement? 这种行为叫什么？
+
+​	chantage au suicide 自杀勒索
+
+Quel a ete le resultat du jugement? 判决结果如何？
+
+​	l'affaire sans suite 案件无需采取进一步行动	
+
+
+
+son etat s'ameliore par la suite 他的病情随后好转
+
+simuler un suicide 假装自杀
+
+chantage au suicide 自杀勒索
+
+violence = violence
+
+quitter 离开
+
+procureur 检察官
+
+l'affaire sans suite 案件无需采取进一步行动
+
+
+
+On charche le rayon 
+
+j'essaie 我尝试
+
+
+
+
+
+
+
