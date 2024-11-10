@@ -350,3 +350,123 @@ j'essaie 我尝试
 
 
 
+# Fifth Class
+
+reflexive
+
+reveilles 醒来
+
+lave 洗
+
+maquille 化妆
+
+
+
+
+
+nous avons finison - we have finished
+
+vous riez facilement - you eaily laugh
+
+
+
+c'est mon bonnet
+
+​         ton
+
+​         son
+
+
+
+c'est notre salle 
+
+​         votre
+
+​         
+
+il ne aime pas le sport
+
+il mange beaucoup
+
+il ciuicine bien
+
+
+
+
+
+elle regarde boucoup de television
+
+
+
+tout le temps - all the time
+
+
+
+C'est quelqu'un que me sait pas lire
+
+qui n'ose pas parler - who does not dare to speak
+
+qui boit tous d'alcool - who all drinks alcohol
+
+un veilleur de nuit - a night watchman
+
+un abstentionniste - 禁欲者
+
+Il est stupide
+
+il est timide
+
+il est triste
+
+c'est sale
+
+il est mou
+
+elle a un caractere de cochon - il na pas bon charactere
+
+il est paresseux comme une couleuvre - en effet ce n'est pas tres avtive
+
+elle est avare - 
+
+il est agressif - il est tre gentile
+
+c'est horrible
+
+c'est infect (it's disgusting)
+
+
+
+Qu'est-ce-qui ne va pas? - What's wrong
+
+Je ne connais personne
+
+Tu ne travail pas. si monsieur
+
+Tes colleages ne sont pas sympas(Your collages are not nice)
+
+Si, ils sont gentile 
+
+Je ne fais rien(I do nothing)
+
+Personne ne me telephone
+
+Tu n'as pas d'ami ici
+
+Je n'ai aucun d'ami
+
+Tu ne connais pas tes voisin, je ne connais aucun voisin(neighbor)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
