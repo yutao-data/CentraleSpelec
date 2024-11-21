@@ -460,6 +460,7 @@ Tu ne connais pas tes voisin, je ne connais aucun voisin(neighbor)
 
 
 
+![image-20241112105002691](/home/yutao/.config/Typora/typora-user-images/image-20241112105002691.png)
 
 
 
@@ -467,6 +468,66 @@ Tu ne connais pas tes voisin, je ne connais aucun voisin(neighbor)
 
 
 
+![image-20241119101152167](/home/yutao/.config/Typora/typora-user-images/image-20241119101152167.png)
+
+### 考试会考: 六个Dialogo, 从中选一个考
+
+Fais voir
+
+C'est pas vrai
+
+Je vais le changer
+
+Depeche(hurry up)
+
+Je reviens tout-de-suite (I will be right back)
+
+Qu'est-ce qui se passe? ca fait une heure que c'est bloque
+
+Ca fait a peine/juste (barely) 10 minutes, madame, s'il vous plait
+
+Laissez-nous passer, vous bloques toute la caisse
+
+ C'est bon, c'est bon! Moi aussi ca fait 10 minute que j'attends! Je ne fais pas un flanc, c'est bon! Ma femme est partie chercher un pull, ça arrive! 
+
+Ceux qui sont pas contents ils changent de caisse
+
+Ca va Loulou, ben, qu'est-ce-que tu fais, Je te cherche par tout. 
+
+Comment ca qu'est-ce-que je fais? ca fait une heure que je t'attends(wait), toi
 
 
 
+![image-20241119110024450](/home/yutao/.config/Typora/typora-user-images/image-20241119110024450.png)
+
+
+
+![image-20241119110052762](/home/yutao/.config/Typora/typora-user-images/image-20241119110052762.png)
+
+
+
+
+
+![image-20241119110247237](/home/yutao/.config/Typora/typora-user-images/image-20241119110247237.png)
+
+
+
+chapeau 圆帽
+
+une casquette 鸭舌帽
+
+jaune  (yellow)
+
+triste (sad)
+
+barbe
+
+Sourire 微笑
+
+Lunette glass
+
+rousse
+
+blond (金色)
+
+mince 薄
