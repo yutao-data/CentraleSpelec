@@ -212,7 +212,7 @@ Given a relation R, we want to add to it just enough “edges” to make the res
 
 
 
-### Transitive closure
+### Transitive closure 
 
 Given a relation R, we want to add to it just enough “edges” to make the resulting relation satisfy the transitivity property.
 
