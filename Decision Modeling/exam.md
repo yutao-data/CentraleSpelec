@@ -71,7 +71,7 @@ The **Condorcet winner** is the candidate who beats every other candidate in pai
   - aaa vs ddd: ddd wins (9 votes to 8)
   - bbb vs ddd: ddd wins (10 votes to 7)
 
-**Winner**: ccc.
+answer b
 
 ------
 
@@ -104,7 +104,7 @@ The **Copeland score** is the sum of +1,−1,0+1, -1, 0+1,−1,0 for pairwise co
   - aaa wins +0+0+0, loses −3-3−3: −3-3−3
   - ddd wins +2+2+2, loses −1-1−1: +1+1+1
 
-**Winner**: ccc.
+**Winner**: b.
 
 ------
 
@@ -118,7 +118,7 @@ The **Kramer-Simpson score** is the minimum number of voters preferring xxx over
   - aaa: Minimum 7 voters (vs bbb)
   - ddd: Minimum 6 voters (vs ccc)
 
-**Winner**: ccc.
+**Winner**: b.
 
 ------
 
@@ -132,6 +132,8 @@ Yes, the Copeland principle elects the Condorcet winner when one exists because 
 
 Yes, the Kramer-Simpson principle also elects the Condorcet winner if one exists. By definition, the Condorcet winner has the strongest minimum pairwise support against all others.
 
+![image-20241125091352758](/home/yutao/.config/Typora/typora-user-images/image-20241125091352758.png)
+
 ------
 
 ### **4. Borda Principle with New Preferences**
@@ -142,13 +144,17 @@ Calculate Borda scores:
 
 - a:19,b:36,c:29,d:18,e:0a: 19, b: 36, c: 29, d: 18, e: 0a:19,b:36,c:29,d:18,e:0
 
-**Winner**: bbb.
+**Winner**: a, b, c, d are all elected.
 
 ------
 
 #### **(a)(ii) Add 3 New Voters**
 
-By adjusting new voters' preferences, candidate eee could win by increasing eee's Borda score while lowering others.
+Not possible
+
+![image-20241125092605202](/home/yutao/.config/Typora/typora-user-images/image-20241125092605202.png)
+
+只要任何一个其他candidate放到第二位, e就不可能获胜
 
 ------
 
@@ -156,13 +162,15 @@ By adjusting new voters' preferences, candidate eee could win by increasing eee'
 
 Similarly, with 4 voters, eee's win can be engineered, provided eee's rank is boosted significantly.
 
+![image-20241125093203273](/home/yutao/.config/Typora/typora-user-images/image-20241125093203273.png)
+
 ------
 
 #### **(b) Adding Voters for Condorcet Winner aaa**
 
 Adding voters with preferences a≻Xa \succ Xa≻X, we can create scenarios where aaa is preferred in all pairwise comparisons.
 
-
+![image-20241125093539844](/home/yutao/.config/Typora/typora-user-images/image-20241125093539844.png)
 
 
 
@@ -172,7 +180,11 @@ Adding voters with preferences a≻Xa \succ Xa≻X, we can create scenarios wher
 
 ## Part 1: Ranking
 
+![image-20241125095458620](/home/yutao/.config/Typora/typora-user-images/image-20241125095458620.png)
+
 ### **Part 1: Ranking**
+
+这里必考
 
 #### **1. Additive Model for Preferences a≻ba \succ ba≻b, c≻dc \succ dc≻d, e≻fe \succ fe≻f**
 
@@ -206,7 +218,15 @@ w1⋅50+w2⋅65+w3⋅75>w1⋅50+w2⋅70+w3⋅60w_1 \cdot 50 + w_2 \cdot 65 + w_3
 
 **Conclusion**: These preferences **cannot** be represented by an additive model because c≻dc \succ dc≻d contradicts the performance scores.
 
+![image-20241125100709749](/home/yutao/.config/Typora/typora-user-images/image-20241125100709749.png)
+
+第一个解假设u(x_1) = x_1
+
+第二个解答直接利用u(x)赋值机制解决, 只需要满足大小排序即可
+
 ------
+
+这里必考
 
 #### **2. Additive Model for Preferences a≻ba \succ ba≻b, c≻dc \succ dc≻d, e∼fe \sim fe∼f**
 
@@ -221,6 +241,8 @@ Simplifies to:
 5w2=15w3  ⟹  w2=3w35w_2 = 15w_3 \implies w_2 = 3w_35w2=15w3⟹w2=3w3
 
 **Conclusion**: These preferences **cannot** be represented by an additive model because c≻dc \succ dc≻d remains inconsistent.
+
+![image-20241125103025441](/home/yutao/.config/Typora/typora-user-images/image-20241125103025441.png)
 
 ------
 
@@ -242,6 +264,10 @@ with w1=6w_1 = 6w1=6, w2=3w_2 = 3w2=3, w3=2w_3 = 2w3=2:
 - Ranking:
 
 a≻d≻b≻c≻e≻fa \succ d \succ b \succ c \succ e \succ fa≻d≻b≻c≻e≻f
+
+
+
+
 
 ------
 
@@ -267,13 +293,7 @@ a≻d≻b≻c≻e≻fa \succ d \succ b \succ c \succ e \succ fa≻d≻b≻c≻e�
 
 **Conclusion**: These preferences **cannot** be represented by a weighted sum model under the given conditions.
 
-
-
-
-
-
-
-
+![image-20241125103532986](/home/yutao/.config/Typora/typora-user-images/image-20241125103532986.png)
 
 
 
@@ -423,3 +443,8 @@ a∈C4,  b,c,d∈C3,  e∈C2,  f∈C1a \in C_4, \; b, c, d \in C_3, 
 
 
 
+![image-20241125105524909](/home/yutao/.config/Typora/typora-user-images/image-20241125105524909.png)
+
+
+
+这题不考
