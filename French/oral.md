@@ -140,10 +140,24 @@ Comment ca qu'est-ce-que je fais? ca fait une heure que je t'attends(wait), toi
 **Personne 3** : Qu’est-ce qui se passe ? Ça fait une heure que c’est bloqué !
 **Employé** : Ça fait à peine/juste 10 minutes, madame, s’il vous plaît.
 **Personne 4** : Laissez-nous passer, vous bloquez toute la caisse !
-**Personne 3** : C’est bon, c’est bon ! Moi aussi ça fait 10 minutes que j’attends ! Je ne fais pas un flanc, c’est bon ! Ma femme est partie chercher un pull, ça arrive !
+**Personne 3** : C'est bon, c'est bon ! Moi aussi ça fait 10 minutes que j’attends ! Je ne fais pas un flanc, c’est bon ! Ma femme est partie chercher un pull, ça arrive !
 **Personne 4** : Ceux qui sont pas contents, ils changent de caisse !
 
 **Retour de la femme :**
 **Personne 1** : Ça va Loulou, ben, qu’est-ce que tu fais ? Je te cherche partout !
 **Personne 2** : Comment ça, qu’est-ce que je fais ? Ça fait une heure que je t’attends, toi !
+
+
+
+
+
+
+
+
+
+
+
+![image-20241125123030651](/home/yutao/.config/Typora/typora-user-images/image-20241125123030651.png)
+
+
 

@@ -531,3 +531,344 @@ rousse
 blond (金色)
 
 mince 薄
+
+
+
+
+
+
+
+# Septh Class
+
+FAIRE
+
+​	Fais du sport (tu)
+
+​	Faitez du sport (vous)
+
+DIRE 
+
+​	Dis a papa
+
+​	Ditez moi
+
+​	Ne dis pas
+
+​	Ne dis rith
+
+
+
+arrêtez vous
+
+
+
+
+
+## Resquirez
+
+NCirculez
+
+Avancez
+
+Passez! Ne passez pas
+
+Attendez! 
+
+Depeche-toi
+
+depechez-vous
+
+
+
+ouvrez la bouche!
+
+fermez la bouche
+
+
+
+souriez
+
+
+
+ne touchez pas
+
+
+
+courez = run
+
+
+
+
+
+## Que pouvez-vous dire a quelqu'un
+
+qui est enerve      Calme-toi, ne t'enerve pas, je te demande de te calmer
+
+qui est sale(dirty)      lave toi, douche toi, je te demande de te nettoyer, n'oublie pas de te doucher
+
+Qui fait tout trop vite        ralentis, ne te depeche-pas, arrête-toi, prends  une pause
+
+qui est lent                Je vous demande de te dépêcher ! Depeche-toi! Ne sois pas lent!  
+
+ qui hesite       decide-toi!  choisis-toi, n'hesite pas, je te demande d'être confiant!
+
+qui n'est pas pres            prepare-toi! Ne perds pas de temps! (Don't waste time!)    Je te demande de te preparer!
+
+qui n'est pas clair            Repete!  Repetez!    Explique-toi!         Je te demande de parler clairement! 
+
+qui est fatigue               prend du vitamin, faite du sport,  je te demande de te dormir / prendre des vacances! 
+
+qui n'est pas correct           Tais-toi!   Sois correct!    Sois poli!       Je te demande d'être poli
+
+qui a peur
+
+
+
+
+
+
+
+Formulez les deux autres formes de l'imperatif
+
+### Formes affirmatives :
+
+**Repose-toi** :
+
+- Reposons-nous
+- Reposez-vous
+
+**Dépêche-toi** :
+
+- Dépêchons-nous
+- Dépêchez-vous
+
+**Prépare-toi** :
+
+- Préparons-nous
+- Préparez-vous
+
+------
+
+### Formes négatives :
+
+**Ne te presse pas** :
+
+- Ne nous pressons pas
+- Ne vous pressez pas
+
+**Ne t'inquiète pas** :
+
+- Ne nous inquiétons pas
+- Ne vous inquiétez pas
+
+**Ne te cache pas** :
+
+- Ne nous cachons pas
+- Ne vous cachez pas
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Tu dois la fenêtre ouverte ? / Vous dormez la fenêtre ouverte ?**
+Oui, je dois la fenêtre ouverte. / Oui, nous devons la fenêtre ouverte.
+
+**Tu vis seul(e) ? en couple ? en colocation ? / Vous vivez seul(e)(s) ? en couple ? en colocation ?**
+Je vis seul(e). / Nous vivons en couple.
+
+**Tu suis des cours de français ? / Vous suivez des cours de français ?**
+Oui, je suis des cours de français. / Oui, nous suivons des cours de français.
+
+**Tu écris beaucoup de textos ? / Vous écrivez beaucoup de textos ?**
+Oui, j’écris beaucoup de textos. / Oui, nous écrivons beaucoup de textos.
+
+**Tu grandis encore ? / Vous grandissez encore ?**
+Non, je ne grandis plus. / Non, nous ne grandissons plus.
+
+**Tu rougis facilement ? / Vous rougissez facilement ?**
+Oui, je rougis facilement. / Oui, nous rougissons facilement.
+
+**Tu réfléchis beaucoup ? / Vous réfléchissez beaucoup ?**
+Oui, je réfléchis beaucoup. / Oui, nous réfléchissons beaucoup.
+
+**Tu ralentis quand tu vois un policier ? / Vous ralentissez quand vous voyez un policier ?**
+Oui, je ralentis quand je vois un policier. / Oui, nous ralentissons quand nous voyons un policier.
+
+**Tu te nourris avec des aliments frais ? / Vous vous nourrissez avec des aliments BIO ?**
+Oui, je me nourris avec des aliments frais. / Oui, nous nous nourrissons avec des aliments frais.
+
+**Tu te mets facilement en colère ? / Vous vous mettez facilement en colère ?**
+Non, je ne me mets pas facilement en colère. / Non, nous ne nous mettons pas facilement en colère.
+
+**Tu connais la géographie de ton pays ? / Vous connaissez la géographie de votre pays ?**
+Oui, je connais la géographie de mon pays. / Oui, nous connaissons la géographie de notre pays.
+
+**Tu mens souvent ? / Vous mentez souvent ?**
+Non, je ne mens pas souvent. / Non, nous ne mentons pas souvent.
+
+**Tu conduis vite ? / Vous conduisez vite ?**
+Non, je ne conduis pas vite. / Non, nous ne conduisons pas vite.
+
+**Tu lis beaucoup ? Qu’est-ce que tu lis ? / Vous lisez beaucoup ? Qu’est-ce que vous lisez ?**
+Oui, je lis beaucoup. Je lis des romans. / Oui, nous lisons beaucoup. Nous lisons des articles.
+
+**Tu connais combien de langues étrangères ? / Vous connaissez combien de langues étrangères ?**
+Je connais deux langues étrangères. / Nous connaissons trois langues étrangères.
+
+
+
+
+
+**devoir, dormir**
+(e.g., Tu **dois** / Vous **dormez**)
+
+**vivre**
+(e.g., Tu **vis** / Vous **vivez**)
+
+**suivre**
+(e.g., Tu **suis** / Vous **suivez**)
+
+**écrire**
+(e.g., Tu **écris** / Vous **écrivez**)
+
+**grandir**
+(e.g., Tu **grandis** / Vous **grandissez**)
+
+**rougir**
+(e.g., Tu **rougis** / Vous **rougissez**)
+
+**réfléchir**
+(e.g., Tu **réfléchis** / Vous **réfléchissez**)
+
+**ralentir**
+(e.g., Tu **ralentis** / Vous **ralentissez**)
+
+**se nourrir**
+(e.g., Tu **te nourris** / Vous **vous nourrissez**)
+
+**se mettre**
+(e.g., Tu **te mets** / Vous **vous mettez**)
+
+**connaître**
+(e.g., Tu **connais** / Vous **connaissez**)
+
+**mentir**
+(e.g., Tu **mens** / Vous **mentez**)
+
+**conduire**
+(e.g., Tu **conduis** / Vous **conduisez**)
+
+**lire**
+(e.g., Tu **lis** / Vous **lisez**)
+
+**connaître**
+(e.g., Tu **connais** / Vous **connaissez**)
+
+
+
+### verbe with 2 base
+
+FINIR
+
+**Je finis  **      -     B1
+
+**Tu finis**     -     B1
+
+**Il/elle/on finit**     -     B1
+
+**Nous finissons **      -     B2
+
+**Vous finissez**   -     B2
+
+**Ils/elles finissent**   -     B2
+
+
+
+
+
+### **Key Patterns to Identify Verbs Like "Finir"**
+
+1. **Belong to the 2nd group**:
+
+   - Verbs ending in **-ir** where the present participle ends in **-issant** (e.g., finir → finissant).
+   - These verbs are regular and often have 2 bases in their conjugation.
+
+   **Examples of -ir verbs with 2 bases:**
+
+   - **finir → finissons**
+   - **choisir → choisissons**
+   - **réussir → réussissons**
+
+2. **Irregular -ir verbs**:
+
+   - Some **-ir** verbs are not part of the "2-base" system because they are irregular (e.g., partir, sortir, dormir). These use a single stem like **parl-** verbs.
+
+   **Example (dormir):**
+
+   - Singular base: **dorm-**
+   - Plural base: **dorm-**
+     (No change in base)
+   - Je dors
+   - Tu dors
+   - Il/elle dort
+   - Nous dormons
+   - Vous dormez
+   - Ils/elles dorment
+
+
+
+
+
+Three base
+
+​       devoir, faire, prendre
+
+ 
+
+
+
+4 most important verbe
+
+**Être** (to be)
+
+- Je suis
+- Tu es
+- Il/elle/on est
+- Nous sommes
+- Vous êtes
+- Ils/elles sont
+
+**Avoir** (to have)
+
+- J’ai
+- Tu as
+- Il/elle/on a
+- Nous avons
+- Vous avez
+- Ils/elles ont
+
+**Faire** (to do/make)
+
+- Je fais
+- Tu fais
+- Il/elle/on fait
+- Nous faisons
+- Vous faites
+- Ils/elles font
+
+**Aller** (to go)
+
+- Je vais
+- Tu vas
+- Il/elle/on va
+- Nous allons
+- Vous allez
+- Ils/elles vont
