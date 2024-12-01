@@ -93,6 +93,22 @@ Electing the CW
 
 ![image-20241014101430582](/home/yutao/.config/Typora/typora-user-images/image-20241014101430582.png)
 
+### **Arrow's Theorem**
+
+Arrow’s Impossibility Theorem states:
+
+> **There is no voting method that satisfies all five principles simultaneously.**
+
+These principles are:
+
+1. **Universality**: The method should always produce a result, regardless of individual preferences.
+2. **Transitivity**: The collective preferences should be consistent. For example, if society prefers A over B and B over C, it should also prefer A over C.
+3. **Independence of Irrelevant Alternatives (IIA)**: The ranking between two options should not be affected by the inclusion or exclusion of a third option.
+4. **Unanimity (Pareto Efficiency)**: If every individual prefers A over B, the group decision should also prefer A over B.
+5. **No Dictatorship**: No single voter should have overriding power to determine the outcome.
+
+Arrow proved that no system of collective decision-making (or voting) can satisfy all these criteria simultaneously when there are three or more options.
+
 ## Exercise
 
 ![image-20241014101637797](/home/yutao/.config/Typora/typora-user-images/image-20241014101637797.png)
