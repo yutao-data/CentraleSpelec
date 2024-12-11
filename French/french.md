@@ -620,7 +620,70 @@ qui est fatigue               prend du vitamin, faite du sport,  je te demande d
 
 qui n'est pas correct           Tais-toi!   Sois correct!    Sois poli!       Je te demande d'être poli
 
-qui a peur
+qui a peur    谁害怕      Calme-toi, tu es en sécurité.       冷静下来
+
+
+
+
+
+L’impératif négatif   否定式势在必行
+
+Un radiologue :
+Respire ! Ne respire plus ! Respire !
+
+放射科医生： 呼吸！不要再呼吸了！呼吸！
+
+Un policier :
+Avance ! Avance ! Ne reste pas là !
+
+一名警察： 进步 ！进步 ！别呆在那里！
+
+Un professeur :
+Chut ! Écoute, ne parle pas !
+Ne fais pas de bruit, sois attentif !
+
+一位老师： 嘘！听着，别说话！ 不要大声喧哗，小心点！
+
+Un entraîneur de gymnastique :
+Cours ! Cours ! Cours !
+Arrête ! Respire ! Souffle !
+
+体操教练： 课程 ！课程 ！课程 ！ 停止！呼吸！呼吸！
+
+Un dentiste :
+Ouvre la bouche ! N’aie pas peur !
+Ferme la bouche ! Voilà ! C’est fini !
+
+牙医： 张开嘴！别害怕！ 闭上你的嘴！所以 ！结束了！
+
+Un photographe :
+Regarde par ici, regarde par là !
+Souris ! Ne bouge plus ! Merci !
+
+摄影师： 看看这里，看看那里！ 老鼠 ！别动！谢谢 ！
+
+Un gardien de musée :
+Ne touche pas, s’il te plaît ! Merci !
+
+博物馆警卫： 请不要碰！谢谢 ！
+
+
+
+
+
+Questions avec des verbes à deux bases
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -872,3 +935,176 @@ Three base
 - Nous allons
 - Vous allez
 - Ils/elles vont
+
+
+
+
+
+
+
+Dimanche dernier, je suis allé(e) jouer au golf. Le temps était agréable, et j’ai bien profité de ma journée. Après le golf, je suis rentré(e) chez moi et j’ai préparé un bon repas. J’ai cuisiné du bœuf et j’ai bu un peu de vin rouge. C’était délicieux !
+
+L’après-midi, j’ai étudié le français. J’ai appris de nouveaux mots et des phrases utiles. Ensuite, j’ai révisé pour mes examens. J’ai lu mes notes et j’ai fait quelques exercices. J’étais fatigué(e) mais content(e) de ma journée.
+
+
+
+
+
+Qu'est-ce-que ca veut dire xx?
+
+
+
+**Se maquiller**
+
+- Je me maquille rarement. (You can replace with "une fois par semaine," "de temps en temps," etc.)
+
+**Se raser souvent**
+
+- Je me rase deux fois par semaine.
+
+**Se parfumer**
+
+- Je me parfume tous les jours.
+
+**Se doucher plusieurs fois par jour**
+
+- Je me douche trois fois par jour.
+
+**Se dépêcher souvent**
+
+- Je me dépêche tous les matins.
+
+**Se couper les cheveux régulièrement**
+
+- Je me coupe les cheveux une fois par mois.
+
+**S’installer le matin devant la télévision**
+
+- Je m’installe devant la télévision de temps en temps.
+
+**Se recoucher après le petit déjeuner**
+
+- Je me recouche rarement après le petit déjeuner.
+
+**Se regarder fréquemment dans la glace**
+
+- Je me regarde dans la glace tous les matins.
+
+**S’énerver souvent**
+
+- Je m’énerve une fois par semaine.
+
+**Se préparer rapidement le matin**
+
+- Je me prépare rapidement tous les jours.
+
+**Se connecter à Internet plusieurs fois par jour**
+
+- Je me connecte à Internet dix fois par jour.
+
+
+
+
+
+enormement
+
+
+
+Tiens
+
+
+
+quoi de neuf? (what's up)
+
+
+
+je travaille comme(as) technicien
+
+
+
+ca c'est une bonne nouvelle (it's a good news)
+
+
+
+J'aime bien mon travail, c'est d'intéressant
+
+
+
+c'est indispensable (it's essential)
+
+
+
+excellente move, ca change un peu
+
+
+
+dites-moi, qu'est ce que vous aime don votre travaille
+
+
+
+J'adore le cote technique
+
+
+
+Je programme le logiciel
+
+
+
+je deteste ca
+
+
+
+tu travaille loin d'ici
+
+
+
+vous commencez tot le matin
+
+
+
+je travaille pas loins d'ici, je commence a neuf heure, comme tout le monde
+
+
+
+je déjeune cantine avec mon college
+
+
+
+qu'est ce que vous manger la-bas?
+
+
+
+c'est assez bon
+
+C'est pas mal
+
+C'est pas mal du tout
+
+
+
+est ce que tu jours toujour(still) au basket
+
+
+
+quartier(neighbor)
+
+
+
+je n'habite plus ici
+
+
+
+bon continuation
+
+
+
+![image-20241203113231370](/home/yutao/.config/Typora/typora-user-images/image-20241203113231370.png)
+
+
+
+![image-20241203113236873](/home/yutao/.config/Typora/typora-user-images/image-20241203113236873.png)
+
+
+
+下周口语考试, 准备六个问题和回答, 使用est ce que xxx
+
