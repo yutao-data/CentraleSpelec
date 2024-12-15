@@ -8,3 +8,12 @@ body {
   width: 100%;
   max-width: 800px;
 }
+
+#wordCloud {
+  margin: 20px auto;
+  width: 800px;
+  height: 500px;
+  border: 1px solid #ddd; /* 边框用于调试 */
+  position: relative;
+  overflow: visible;
+}

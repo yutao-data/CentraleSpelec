@@ -8,11 +8,15 @@ d3.csv("./job_data.csv", d => ({
   RedirectURL: d["Redirect URL"]
 })).then(data => {
   console.log("Loaded Data:", data);
+  console.log(typeof d3.layout.cloud); 
 
   const validJobLevels = ["Internship", "Junior", "Mid-level", "Senior", "Technical Director"];
   const filteredData = data.filter(d => validJobLevels.includes(d.JobLevel));
 
   const countries = Array.from(new Set(filteredData.map(d => d.Country))).sort();
+
+  const jobTitles = data.map(d => d.JobTitle).join(" ");
+
 
   const countryColor = d3.scaleOrdinal()
       .domain(countries)
@@ -76,15 +80,16 @@ d3.csv("./job_data.csv", d => ({
 
   createVisualization(filteredData, countryColor);
   createSalaryLine(maxSalary);
-
+  
   function updateVisualization(selectedCountry, selectedJobLevel) {
-      const filtered = filteredData.filter(d =>
-          (selectedCountry === "All" || d.Country === selectedCountry) &&
-          (selectedJobLevel === "All" || d.JobLevel === selectedJobLevel)
-      );
-      createVisualization(filtered, countryColor);
-      updateSalaryLine(selectedCountry, selectedJobLevel, filteredData, selectedJobCategory);
-  }
+    const filtered = filteredData.filter(d =>
+        (selectedCountry === "All" || d.Country === selectedCountry) &&
+        d.JobLevel === selectedJobLevel
+    );
+    createVisualization(filtered, countryColor);
+    updateSalaryLine(filtered);
+    createBubbleMap(filtered);
+}
 
   function createVisualization(data, countryColor) {
       d3.select("#visualization").html("");
@@ -126,7 +131,7 @@ d3.csv("./job_data.csv", d => ({
           .style("text-anchor", "end");
 
       svg.append("g").call(d3.axisLeft(yScale));
-
+      
       svg.selectAll(".bar")
       .data(groupedData)
       .join("rect")
@@ -157,7 +162,9 @@ d3.csv("./job_data.csv", d => ({
       })
       .append("title")
       .text(d => `${d.JobCategory}: $${d.AverageSalary.toFixed(2)}`);
-  
+
+
+      
   }
 
   function createSalaryLine(maxSalary) {
@@ -180,49 +187,120 @@ d3.csv("./job_data.csv", d => ({
       svg.append("text")
           .attr("x", 50)
           .attr("y", height / 2 - 10)
-          .text("$0");
+          .text("0");
 
       svg.append("text")
           .attr("x", width - 50)
           .attr("y", height / 2 - 10)
-          .text(`$${maxSalary}`);
+        //   .text(`$${maxSalary}`);
+          .text(`Dream`);
   }
-
+  
   function updateSalaryLine(selectedCountry, selectedJobLevel, data, selectedJobCategory) {
-      const width = 900;
-      const xScale = d3.scaleLinear()
-          .domain([0, d3.max(data, d => d.AverageSalary)])
-          .range([50, width - 50]);
+    if (!data || data.length === 0) {
+        // console.warn("No data available for the selected filters");
+        return;
+    }
 
-      const filtered = data.filter(d =>
-          (selectedCountry === "All" || d.Country === selectedCountry) &&
-          (selectedJobLevel === "All" || d.JobLevel === selectedJobLevel) &&
-          (selectedJobCategory === null || d.JobCategory === selectedJobCategory)
-      );
+    const width = 900;
 
-      const avgSalary = d3.mean(filtered, d => d.AverageSalary) || 0;
+    // Filter data based on current selections
+    const filtered = data.filter(d =>
+        (selectedCountry === "All" || d.Country === selectedCountry) &&
+        (selectedJobLevel === "All" || d.JobLevel === selectedJobLevel) &&
+        (selectedJobCategory === null || d.JobCategory === selectedJobCategory)
+    );
 
-      const svg = d3.select("#salaryLine svg");
-      svg.selectAll(".person").remove();
+    // If no data matches, warn and return
+    if (filtered.length === 0) {
+        // console.warn(`No matching data for filters: Country=${selectedCountry}, JobLevel=${selectedJobLevel}, JobCategory=${selectedJobCategory}`);
+        return;
+    }
 
-      svg.append("image")
-          .attr("class", "person")
-          .attr("xlink:href", "./run.webp")
-          .attr("width", 50)
-          .attr("height", 50)
-          .attr("x", xScale(avgSalary) - 25)
-          .attr("y", 25)
-          .transition()
-          .duration(1000)
-          .ease(d3.easeCubicOut)
-          .attr("x", xScale(avgSalary) - 25);
+    // Ensure maxSalary includes the range of the current data
+    const maxSalary = d3.max(data, d => d.AverageSalary) || 0;
 
-      svg.append("text")
-          .attr("class", "person")
-          .attr("x", xScale(avgSalary))
-          .attr("y", 90)
-          .attr("text-anchor", "middle")
-          .style("font-size", "12px")
-          .text(`$${Math.round(avgSalary)}`);
-  }
+    // Recalculate xScale with the overall data range
+    const xScale = d3.scaleLinear()
+        .domain([0, maxSalary])
+        .range([50, width - 50]);
+
+    // Calculate the average salary for the filtered data
+    const avgSalary = d3.mean(filtered, d => d.AverageSalary) || 0;
+
+    // Select the salary line SVG
+    const svg = d3.select("#salaryLine svg");
+
+    // Clear previous indicators
+    svg.selectAll(".person").remove();
+
+    // Add the "person" image and animate it to the new position
+    svg.append("image")
+        .attr("class", "person")
+        .attr("xlink:href", "./run.webp")
+        .attr("width", 200)
+        .attr("height", 200)
+        .attr("x", xScale(avgSalary) - 300) // Start position
+        .attr("y", -70)
+        .transition()
+        .duration(1000)
+        .ease(d3.easeCubicOut)
+        .attr("x", xScale(avgSalary) - 100); // Final position
+
+    // Add a text label for the average salary
+    svg.append("text")
+        .attr("class", "person")
+        .attr("x", xScale(avgSalary))
+        .attr("y", 90)
+        .attr("text-anchor", "middle")
+        .style("font-size", "12px")
+        .text(`$${Math.round(avgSalary)}`);
+}
+
+function createBubbleMap(data) {
+    d3.select("#bubbleMap").html("");
+    const width = 800, height = 500;
+
+    const bubbleSvg = d3.select("#bubbleMap")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    const groupedData = Array.from(
+        d3.group(data, d => d.JobCategory),
+        ([key, values]) => ({
+            JobCategory: key,
+            Count: values.length
+        })
+    );
+
+    const pack = d3.pack().size([width, height]).padding(5);
+    const root = d3.hierarchy({ children: groupedData }).sum(d => d.Count);
+
+    const nodes = pack(root).leaves();
+
+    const color = d3.scaleOrdinal(d3.schemeTableau10);
+
+    const bubbles = bubbleSvg.selectAll("g")
+        .data(nodes)
+        .enter()
+        .append("g")
+        .attr("transform", d => `translate(${d.x},${d.y})`);
+
+    bubbles.append("circle")
+        .attr("r", d => d.r)
+        .attr("fill", d => color(d.data.JobCategory))
+        .attr("fill-opacity", 0.7)
+        .attr("stroke", "black");
+
+    bubbles.append("title")
+        .text(d => `${d.data.JobCategory}\nCount: ${d.data.Count}`);
+
+    bubbles.append("text")
+        .attr("text-anchor", "middle")
+        .attr("dy", ".3em")
+        .style("font-size", "10px")
+        .text(d => d.data.JobCategory);
+}
+createBubbleMap(filteredData);
 });

@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Job Data Visualization</title>
-	<link rel="icon" type="image/png" href="favicon.png">
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png">
     <style>
-		
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -42,24 +41,15 @@
             cursor: pointer;
         }
 
-        button {
-            padding: 10px;
-            margin: 0 5px;
-            border: none;
-            cursor: pointer;
-            background-color: steelblue;
-            color: white;
-            font-size: 14px;
-            border-radius: 5px;
-        }
-
-        button:disabled {
-            background-color: grey;
-            cursor: not-allowed;
-        }
-
         #salaryLineContainer {
             margin-top: 40px;
+        }
+
+        #bubbleMap {
+            margin: 20px auto;
+            width: 800px;
+            height: 500px;
+            border: 1px solid #ddd;
         }
     </style>
 </head>
@@ -67,18 +57,23 @@
     <div id="filterContainer">
         <div id="countryButtons"></div>
         <div id="jobLevelSliderContainer">
-            <button id="relaxButton">Relax</button>
+            <button id="relaxButton">Too Relax</button>
             <input type="range" id="jobLevelSlider" min="0" max="4" value="0" step="1">
             <button id="workHardButton">Work Hard</button>
         </div>
         <p id="jobLevelLabel">Internship</p>
     </div>
 
-    <div id="visualization" class="responsive-svg-container"></div>
+    <div id="visualization"></div>
 
     <div id="salaryLineContainer">
         <h3>Your Salary Level</h3>
         <div id="salaryLine"></div>
+    </div>
+
+    <div id="bubbleMapContainer">
+        <h3>Job Category Bubble Map</h3>
+        <div id="bubbleMap"></div>
     </div>
 
     <script src="script.js"></script>
