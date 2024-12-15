@@ -3,15 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Data Visualization</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Interactive Job Data Visualization</title>
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #filterContainer {
+            margin: 20px;
+        }
+
+        #jobLevelSliderContainer {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #jobLevelSlider {
+            width: 300px;
+            margin: 0 20px;
+        }
+
+        #visualization {
+            margin-top: 20px;
+        }
+
+        #countryButtons button {
+            margin: 5px;
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        button {
+            padding: 10px;
+            margin: 0 5px;
+            border: none;
+            cursor: pointer;
+            background-color: steelblue;
+            color: white;
+            font-size: 14px;
+            border-radius: 5px;
+        }
+
+        button:disabled {
+            background-color: grey;
+            cursor: not-allowed;
+        }
+
+        #salaryLineContainer {
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-    <div id="countryButtons" style="margin-bottom: 20px; text-align: center;"></div>
+    <div id="filterContainer">
+        <div id="countryButtons"></div>
+        <div id="jobLevelSliderContainer">
+            <button id="relaxButton">Relax</button>
+            <input type="range" id="jobLevelSlider" min="0" max="4" value="0" step="1">
+            <button id="workHardButton">Work Hard</button>
+        </div>
+        <p id="jobLevelLabel">Internship</p>
+    </div>
 
     <div id="visualization" class="responsive-svg-container"></div>
 
-    <script src="./script.js"></script>
+    <div id="salaryLineContainer">
+        <h3>Your Salary Level</h3>
+        <div id="salaryLine"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

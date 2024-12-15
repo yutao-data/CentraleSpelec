@@ -3,48 +3,89 @@ d3.csv("./job_data.csv", d => ({
   Country: d.Country,
   JobTitle: d["Job Title"],
   JobCategory: d["Job Category"],
+  JobLevel: d["Job Level"],
   AverageSalary: +d["Average Salary"],
   RedirectURL: d["Redirect URL"]
 })).then(data => {
   console.log("Loaded Data:", data);
 
-  const countries = Array.from(new Set(data.map(d => d.Country))).sort();
+  const validJobLevels = ["Internship", "Junior", "Mid-level", "Senior", "Technical Director"];
+  const filteredData = data.filter(d => validJobLevels.includes(d.JobLevel));
+
+  const countries = Array.from(new Set(filteredData.map(d => d.Country))).sort();
 
   const countryColor = d3.scaleOrdinal()
       .domain(countries)
       .range(d3.schemeCategory10);
 
-  const countryButtons = d3.select("#countryButtons");
+  const maxSalary = d3.max(filteredData, d => d.AverageSalary);
 
+  let currentCountry = "All";
+  let currentJobLevel = validJobLevels[0];
+
+  const countryButtons = d3.select("#countryButtons");
   countryButtons.selectAll("button")
       .data(["All", ...countries])
       .enter()
       .append("button")
       .text(d => d)
-      .style("margin", "5px")
-      .style("padding", "10px 20px")
-      .style("border", "none")
       .style("background-color", d => d === "All" ? "grey" : countryColor(d))
-      .style("color", "white")
-      .style("cursor", "pointer")
-      .on("click", function(event, selectedCountry) {
-          d3.selectAll("button").style("opacity", 0.5);
+      .style("opacity", 1)
+      .on("click", function (event, selectedCountry) {
+          d3.selectAll("#countryButtons button").style("opacity", 0.5);
           d3.select(this).style("opacity", 1);
-          updateVisualization(selectedCountry);
+          currentCountry = selectedCountry;
+          updateVisualization(currentCountry, currentJobLevel);
       });
 
-  createVisualization(data, countryColor);
+  const slider = d3.select("#jobLevelSlider");
+  const label = d3.select("#jobLevelLabel");
+  const relaxButton = d3.select("#relaxButton");
+  const workHardButton = d3.select("#workHardButton");
 
-  function updateVisualization(selectedCountry) {
-      const filteredData = selectedCountry === "All" ? data : data.filter(d => d.Country === selectedCountry);
-      createVisualization(filteredData, countryColor);
+  function updateJobLevel(newIndex) {
+      slider.property("value", newIndex);
+      currentJobLevel = validJobLevels[newIndex];
+      label.text(currentJobLevel);
+      updateVisualization(currentCountry, currentJobLevel);
+  }
+
+  slider.on("input", function () {
+      const levelIndex = +this.value;
+      updateJobLevel(levelIndex);
+  });
+
+  relaxButton.on("click", function () {
+      const currentIndex = +slider.property("value");
+      if (currentIndex > 0) {
+          updateJobLevel(currentIndex - 1);
+      }
+  });
+
+  workHardButton.on("click", function () {
+      const currentIndex = +slider.property("value");
+      if (currentIndex < validJobLevels.length - 1) {
+          updateJobLevel(currentIndex + 1);
+      }
+  });
+
+  createVisualization(filteredData, countryColor);
+  createSalaryLine(maxSalary);
+
+  function updateVisualization(selectedCountry, selectedJobLevel) {
+      const filtered = filteredData.filter(d =>
+          (selectedCountry === "All" || d.Country === selectedCountry) &&
+          (selectedJobLevel === "All" || d.JobLevel === selectedJobLevel)
+      );
+      createVisualization(filtered, countryColor);
+      updateSalaryLine(selectedCountry, selectedJobLevel, filteredData);
   }
 });
 
 function createVisualization(data, countryColor) {
   d3.select("#visualization").html("");
 
-  const margin = { top: 20, right: 30, bottom: 80, left: 70 };
+  const margin = { top: 20, right: 30, bottom: 120, left: 70 };
   const width = 900 - margin.left - margin.right;
   const height = 500 - margin.top - margin.bottom;
 
@@ -87,10 +128,70 @@ function createVisualization(data, countryColor) {
       .join("rect")
       .attr("class", "bar")
       .attr("x", d => xScale(d.JobCategory))
-      .attr("y", d => yScale(d.AverageSalary))
-      .attr("height", d => height - yScale(d.AverageSalary))
+      .attr("y", height)
+      .attr("height", 0)
       .attr("width", xScale.bandwidth())
-      .attr("fill", d => countryColor(d.Country || "All"))
-      .append("title")
-      .text(d => `${d.JobCategory}: $${d.AverageSalary.toFixed(2)}`);
+      .attr("fill", "steelblue")
+      .transition()
+      .duration(1000)
+      .ease(d3.easeBounceOut)
+      .attr("y", d => yScale(d.AverageSalary))
+      .attr("height", d => height - yScale(d.AverageSalary));
+}
+
+function createSalaryLine(maxSalary) {
+  const width = 900;
+  const height = 100;
+
+  const svg = d3.select("#salaryLine")
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+  svg.append("line")
+      .attr("x1", 50)
+      .attr("x2", width - 50)
+      .attr("y1", height / 2)
+      .attr("y2", height / 2)
+      .attr("stroke", "black")
+      .attr("stroke-width", 2);
+
+  svg.append("text")
+      .attr("x", 50)
+      .attr("y", height / 2 - 10)
+      .text("$0");
+
+  svg.append("text")
+      .attr("x", width - 50)
+      .attr("y", height / 2 - 10)
+      .text(`$${maxSalary}`);
+}
+
+function updateSalaryLine(selectedCountry, selectedJobLevel, data) {
+  const width = 900;
+  const xScale = d3.scaleLinear()
+      .domain([0, 0.5 * d3.max(data, d => d.AverageSalary)])
+      .range([50, width - 50]);
+
+  const avgSalary = d3.mean(data.filter(d =>
+      (selectedCountry === "All" || d.Country === selectedCountry) &&
+      (selectedJobLevel === "All" || d.JobLevel === selectedJobLevel)
+  ), d => d.AverageSalary) || 0;
+
+  const svg = d3.select("#salaryLine svg");
+  svg.selectAll(".person").remove();
+
+  svg.append("circle")
+      .attr("class", "person")
+      .attr("cx", xScale(avgSalary))
+      .attr("cy", 50)
+      .attr("r", 10)
+      .attr("fill", "red");
+
+  svg.append("text")
+      .attr("class", "person")
+      .attr("x", xScale(avgSalary))
+      .attr("y", 30)
+      .attr("text-anchor", "middle")
+      .text("👤");
 }
