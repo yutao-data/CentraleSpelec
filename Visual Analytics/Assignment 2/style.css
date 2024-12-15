@@ -9,11 +9,47 @@ body {
   max-width: 800px;
 }
 
-#wordCloud {
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#filterContainer {
+  margin: 20px;
+}
+
+#jobLevelSliderContainer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#jobLevelSlider {
+  width: 300px;
+  margin: 0 20px;
+}
+
+#visualization {
+  margin-top: 20px;
+}
+
+#countryButtons button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#salaryLineContainer {
+  margin-top: 40px;
+}
+
+#bubbleMap {
   margin: 20px auto;
   width: 800px;
   height: 500px;
-  border: 1px solid #ddd; /* 边框用于调试 */
-  position: relative;
-  overflow: visible;
+  border: 1px solid #ddd;
 }
+

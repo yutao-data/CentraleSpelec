@@ -187,7 +187,7 @@ d3.csv("./job_data.csv", d => ({
       svg.append("text")
           .attr("x", 50)
           .attr("y", height / 2 - 10)
-          .text("0");
+          .text("Student");
 
       svg.append("text")
           .attr("x", width - 50)
@@ -237,7 +237,7 @@ d3.csv("./job_data.csv", d => ({
     // Add the "person" image and animate it to the new position
     svg.append("image")
         .attr("class", "person")
-        .attr("xlink:href", "./run.webp")
+        .attr("xlink:href", "./graph/run.webp")
         .attr("width", 200)
         .attr("height", 200)
         .attr("x", xScale(avgSalary) - 300) // Start position

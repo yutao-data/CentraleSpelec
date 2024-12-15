@@ -6,52 +6,8 @@
     <title>Interactive Job Data Visualization</title>
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-
-        #filterContainer {
-            margin: 20px;
-        }
-
-        #jobLevelSliderContainer {
-            margin-top: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #jobLevelSlider {
-            width: 300px;
-            margin: 0 20px;
-        }
-
-        #visualization {
-            margin-top: 20px;
-        }
-
-        #countryButtons button {
-            margin: 5px;
-            padding: 10px 20px;
-            border: none;
-            color: white;
-            cursor: pointer;
-        }
-
-        #salaryLineContainer {
-            margin-top: 40px;
-        }
-
-        #bubbleMap {
-            margin: 20px auto;
-            width: 800px;
-            height: 500px;
-            border: 1px solid #ddd;
-        }
-    </style>
+    <link rel="icon" type="image/png" href="graph/favicon.png">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
     <div id="filterContainer">
@@ -64,7 +20,9 @@
         <p id="jobLevelLabel">Internship</p>
     </div>
 
-    <div id="visualization"></div>
+    <div id="visualization">
+        <h3>Salary Bar</h3>
+    </div>
 
     <div id="salaryLineContainer">
         <h3>Your Salary Level</h3>
